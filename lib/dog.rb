@@ -8,5 +8,6 @@ class Dog
 
   def name=(name)
     @name = name
+    @@all << name
   end
 end
